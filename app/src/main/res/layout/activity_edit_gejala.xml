@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EditGejala"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbareditgejala"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorAccent"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/txID_Editgejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <EditText
+            android:enabled="false"
+            android:id="@+id/txKode_Editgejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode Gejala" />
+        <EditText
+            android:id="@+id/txNama_Editgejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Gejala"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"/>
+        <EditText
+            android:id="@+id/txBobot_editgejala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bobot"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="@drawable/bg_utama"
+tools:context=".Activities.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerVertical="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMPLEMENTASI ALGORITMA TOPSIS PADA SISTEM PENDUKUNG KEPUTUSAN DIAGNOSA GEJALA AWAL PENYAKIT DISPEPSIA"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:layout_marginTop="50sp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/Btn_masuk"
+        style="@style/loginHome"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/button_bg_home"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:text="Masuk"
+        android:onClick="masuk"
+        app:initialCornerAngle="27dp"
+        app:spinning_bar_color="#FFF"
+        app:spinning_bar_padding="6dp"
+        app:spinning_bar_width="4dp" />
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/Btn_tentang"
+        style="@style/loginHome"
+        android:background="@drawable/button_bg_home"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:text="Tentang"
+        android:onClick="tentang"
+        app:initialCornerAngle="27dp"
+        app:spinning_bar_color="#FFF"
+        app:spinning_bar_padding="6dp"
+        app:spinning_bar_width="4dp" />
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/Btn_keluar"
+        style="@style/loginHome"
+        android:background="@drawable/button_bg_home"
+        android:layout_gravity="center_horizontal"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:text="Keluar"
+        android:onClick="keluar"
+        app:initialCornerAngle="27dp"
+        app:spinning_bar_color="#FFF"
+        app:spinning_bar_padding="6dp"
+        app:spinning_bar_width="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center">
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

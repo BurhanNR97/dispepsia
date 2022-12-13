@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dispepsia</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="tgl_lahir">Tanggal Lahir</string>
+    <string name="no_ktp_sim_passport">No. KTP/SIM/Passport</string>
+    <string name="skripsi">IMPLEMENTASI METODE TOPSIS PADA SISTEM PENDUKUNG KEPUTUSAN DIAGNOSA GEJALA AWAL PENYAKIT DISPEPSIA BERBASIS ANDROID</string>
+    <string name="title_activity_beranda_admin">BerandaAdmin</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
